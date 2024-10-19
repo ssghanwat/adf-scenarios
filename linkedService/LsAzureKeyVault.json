@@ -1,0 +1,10 @@
+{
+	"name": "LsAzureKeyVault",
+	"properties": {
+		"annotations": [],
+		"type": "AzureKeyVault",
+		"typeProperties": {
+			"baseUrl": "https://sandeep-AKV.vault.azure.net/"
+		}
+	}
+}
