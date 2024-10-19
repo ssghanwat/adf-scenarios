@@ -1,0 +1,9 @@
+{
+	"name": "adf-sandeep",
+	"location": "eastus",
+	"identity": {
+		"type": "SystemAssigned",
+		"principalId": "0fce7ebc-d4b3-477b-a3ef-d62984b7e18f",
+		"tenantId": "856a6347-d5f7-4662-9653-812f734272cb"
+	}
+}
