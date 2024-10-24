@@ -1,2 +1,2 @@
 # Databricks notebook source
-dbutils.fs.ls("/")
+dbutils.fs.ls("/mnt/files")
