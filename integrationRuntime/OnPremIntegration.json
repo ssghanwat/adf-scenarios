@@ -1,0 +1,6 @@
+{
+	"name": "OnPremIntegration",
+	"properties": {
+		"type": "SelfHosted"
+	}
+}
