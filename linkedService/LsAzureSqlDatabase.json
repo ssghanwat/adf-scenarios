@@ -1,0 +1,17 @@
+{
+	"name": "LsAzureSqlDatabase",
+	"type": "Microsoft.DataFactory/factories/linkedservices",
+	"properties": {
+		"annotations": [],
+		"type": "AzureSqlDatabase",
+		"typeProperties": {
+			"server": "sandeep-admin.database.windows.net",
+			"database": "sandeep-DB",
+			"encrypt": "mandatory",
+			"trustServerCertificate": false,
+			"authenticationType": "SQL",
+			"userName": "sandeepDB-admin",
+			"encryptedCredential": "ew0KICAiVmVyc2lvbiI6ICIyMDE3LTExLTMwIiwNCiAgIlByb3RlY3Rpb25Nb2RlIjogIktleSIsDQogICJTZWNyZXRDb250ZW50VHlwZSI6ICJQbGFpbnRleHQiLA0KICAiQ3JlZGVudGlhbElkIjogIkRBVEFGQUNUT1JZQDk2QjRGRjc4LTE5ODItNDA4Ni04MTY2LTNEOTg1REVBN0RGQl8wYjU4ZmIyZC02ZTA1LTRlYTYtYjllNy00ZjMzOTRjYTIyY2QiDQp9"
+		}
+	}
+}
