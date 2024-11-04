@@ -8,6 +8,9 @@
 		"parameters": {
 			"SheetName": {
 				"type": "string"
+			},
+			"FileName": {
+				"type": "string"
 			}
 		},
 		"annotations": [],
@@ -19,7 +22,10 @@
 			},
 			"location": {
 				"type": "AzureBlobFSLocation",
-				"fileName": "Demo.xlsx",
+				"fileName": {
+					"value": "@dataset().FileName",
+					"type": "Expression"
+				},
 				"fileSystem": "demo"
 			},
 			"firstRowAsHeader": true
