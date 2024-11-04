@@ -1,0 +1,10 @@
+{
+	"name": "CopyToOnPremSQLDB",
+	"properties": {
+		"description": "This pipeline copies data from csv file to on prem sql database ORACLE",
+		"folder": {
+			"name": "DemoPipelines"
+		},
+		"annotations": []
+	}
+}

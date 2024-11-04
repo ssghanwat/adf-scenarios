@@ -1,0 +1,42 @@
+{
+	"name": "DsExcel",
+	"properties": {
+		"linkedServiceName": {
+			"referenceName": "LsSandeepADLS",
+			"type": "LinkedServiceReference"
+		},
+		"parameters": {
+			"SheetName": {
+				"type": "string"
+			}
+		},
+		"annotations": [],
+		"type": "Excel",
+		"typeProperties": {
+			"sheetName": {
+				"value": "@dataset().SheetName",
+				"type": "Expression"
+			},
+			"location": {
+				"type": "AzureBlobFSLocation",
+				"fileName": "Demo.xlsx",
+				"fileSystem": "demo"
+			},
+			"firstRowAsHeader": true
+		},
+		"schema": [
+			{
+				"name": "id",
+				"type": "String"
+			},
+			{
+				"name": "name",
+				"type": "String"
+			},
+			{
+				"name": "add",
+				"type": "String"
+			}
+		]
+	}
+}
