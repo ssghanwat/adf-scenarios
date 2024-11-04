@@ -1,0 +1,9 @@
+{
+	"name": "GetSheetNames",
+	"properties": {
+		"folder": {
+			"name": "TestPipelines"
+		},
+		"annotations": []
+	}
+}
