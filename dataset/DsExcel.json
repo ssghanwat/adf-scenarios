@@ -1,18 +1,25 @@
 {
-	"name": "DsGetMetadata2",
+	"name": "DsExcel",
 	"properties": {
 		"linkedServiceName": {
 			"referenceName": "LsSandeepADLS",
 			"type": "LinkedServiceReference"
 		},
 		"parameters": {
+			"sheetName": {
+				"type": "string"
+			},
 			"FileName": {
 				"type": "string"
 			}
 		},
 		"annotations": [],
-		"type": "DelimitedText",
+		"type": "Excel",
 		"typeProperties": {
+			"sheetName": {
+				"value": "@dataset().sheetName",
+				"type": "Expression"
+			},
 			"location": {
 				"type": "AzureBlobFSLocation",
 				"fileName": {
@@ -21,10 +28,7 @@
 				},
 				"fileSystem": "demo"
 			},
-			"columnDelimiter": ",",
-			"escapeChar": "\\",
-			"firstRowAsHeader": true,
-			"quoteChar": "\""
+			"firstRowAsHeader": true
 		},
 		"schema": []
 	}
