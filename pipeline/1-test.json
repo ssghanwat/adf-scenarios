@@ -233,7 +233,7 @@
 							"userProperties": [],
 							"typeProperties": {
 								"expression": {
-									"value": "@contains(item().name,'Demo.xlsx')",
+									"value": "@contains(item().name,'.xlsx')",
 									"type": "Expression"
 								},
 								"ifTrueActivities": [
@@ -269,6 +269,9 @@
 		"variables": {
 			"DataFileName": {
 				"type": "String"
+			},
+			"FileNamesArray": {
+				"type": "Array"
 			}
 		},
 		"folder": {
