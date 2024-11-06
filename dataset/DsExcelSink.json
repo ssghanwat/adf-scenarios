@@ -1,5 +1,5 @@
 {
-	"name": "DsGetMetadata2",
+	"name": "DsExcelSink",
 	"properties": {
 		"linkedServiceName": {
 			"referenceName": "LsSandeepADLS",
@@ -19,6 +19,7 @@
 					"value": "@dataset().FileName",
 					"type": "Expression"
 				},
+				"folderPath": "Sheets",
 				"fileSystem": "demo"
 			},
 			"columnDelimiter": ",",

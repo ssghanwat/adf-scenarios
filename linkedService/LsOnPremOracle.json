@@ -1,0 +1,16 @@
+{
+	"name": "LsOnPremOracle",
+	"type": "Microsoft.DataFactory/factories/linkedservices",
+	"properties": {
+		"annotations": [],
+		"type": "Oracle",
+		"typeProperties": {
+			"connectionString": "host=localhost;port=1521;sid=XE;user id=SYSTEM",
+			"encryptedCredential": "eyJDcmVkZW50aWFsSWQiOiI4YmY1ZGE4MS00NDg2LTQ1M2MtODU3NC03ODA1NDIzNjE0NzMiLCJWZXJzaW9uIjoiMi4wIiwiQ2xhc3NUeXBlIjoiTWljcm9zb2Z0LkRhdGFQcm94eS5Db3JlLkludGVyU2VydmljZURhdGFDb250cmFjdC5DcmVkZW50aWFsU1UwNkNZMTQifQ=="
+		},
+		"connectVia": {
+			"referenceName": "OnPremIntegration",
+			"type": "IntegrationRuntimeReference"
+		}
+	}
+}
