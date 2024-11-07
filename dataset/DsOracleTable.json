@@ -1,0 +1,15 @@
+{
+	"name": "DsOracleTable",
+	"properties": {
+		"linkedServiceName": {
+			"referenceName": "LsOnPremOracle",
+			"type": "LinkedServiceReference"
+		},
+		"folder": {
+			"name": "project"
+		},
+		"annotations": [],
+		"type": "OracleTable",
+		"schema": []
+	}
+}
